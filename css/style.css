@@ -240,6 +240,20 @@ img {
 
 /* card design  */
 
+.service_part__allCard {
+  position: relative;
+  z-index: 1;
+}
+
+.service_part__allCard::after {
+  position: absolute;
+  content: url(/images/card_part_circle.png);
+  bottom: -19%;
+  right: -12%;
+  z-index: -1;
+  animation: moving 10s linear;
+}
+
 .service__card {
   border-top: 7px solid var(--primary_color);
   border-radius: 12px;
