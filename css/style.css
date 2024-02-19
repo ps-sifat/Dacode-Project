@@ -119,7 +119,6 @@ img {
 /* ========== banner part start ========== */
 
 #banner_part {
-  padding-bottom: 43px;
   overflow: hidden;
 }
 
@@ -163,7 +162,6 @@ img {
 
 .Banner_left__buttons {
   position: relative;
-  z-index: 1;
 }
 
 .Banner_left__buttons::after {
@@ -433,3 +431,93 @@ img {
 }
 
 /* ========== Portfolio_part end ========== */
+
+/* ========== IdeaPart start ========== */
+
+#IdeaPart {
+  padding: 202px 0 195px;
+}
+
+.IdeaPart__title {
+  font-size: 48px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  color: var(--primary_font_color);
+}
+
+.IdeaPart__title span {
+  color: var(--primary_color);
+}
+
+.IdeaPart__summary {
+  font-size: 20px;
+  font-family: var(--dmSans);
+  font-weight: 500;
+  color: var(--details_color);
+  max-width: 954px;
+  margin: 16px 0 50px;
+}
+
+/* ====================== */
+
+.IdeaPart__details {
+  margin-top: 5px;
+}
+
+.IdeaPart__details {
+  display: flex;
+  column-gap: 50px;
+}
+
+.details__one {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: var(--white_color);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.details__one span {
+  font-size: 32px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  line-height: 82px;
+}
+
+.details__title {
+  font-size: 24px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  margin-bottom: 12px;
+  color: var(--primary_color);
+}
+
+.details__summary {
+  font-size: 16px;
+  font-family: var(--dmSans);
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--details_color);
+  max-width: 553px;
+}
+
+.IdeaPart__right {
+  position: absolute;
+  bottom: -27%;
+  right: 0;
+
+}
+
+.IdeaPart__right::after {
+  content: url(/images/circle3.png);
+  position: absolute;
+  top: 9%;
+  left: 5%;
+  z-index: -1;
+  animation: moving 10s linear;
+}
+
+
+
+
+/* ========== IdeaPart end ========== */
