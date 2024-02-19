@@ -73,6 +73,12 @@ img {
 
 /* ========== nav bar start ========== */
 
+.navbar {
+  background: rgba(255, 255, 255, 0.23);
+  border-radius: 16px;
+  backdrop-filter: blur(11.1px);
+  -webkit-backdrop-filter: blur(11.1px);
+}
 .custom_NavItem {
   font-size: 18px;
   font-weight: 400;
