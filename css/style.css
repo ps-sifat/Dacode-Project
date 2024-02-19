@@ -64,6 +64,7 @@ img {
   0% {
     transform: rotate(0);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -79,6 +80,7 @@ img {
   backdrop-filter: blur(11.1px);
   -webkit-backdrop-filter: blur(11.1px);
 }
+
 .custom_NavItem {
   font-size: 18px;
   font-weight: 400;
@@ -302,7 +304,32 @@ img {
 /* ========== Portfolio_part start ========== */
 
 #Portfolio_part {
-  padding-top: 78px;
+  padding: 78px 0 145px;
+  position: relative;
+  z-index: 1;
+}
+
+#Portfolio_part .container {
+  position: relative;
+}
+
+#Portfolio_part::after {
+  z-index: -1;
+  position: absolute;
+  height: 374px;
+  width: 100%;
+  content: "";
+  bottom: 0;
+  left: 0;
+  background: var(--primary_color);
+}
+
+#Portfolio_part .container::before {
+  position: absolute;
+  content: url(/images/Portfolio_circle.png);
+  top: 23%;
+  left: -160px;
+  animation: moving 10s linear;
 }
 
 .title__portfolio {
@@ -335,6 +362,74 @@ img {
 
 .heading__button:hover {
   border-color: var(--secondary_font_color);
+}
+
+/* slider part  */
+
+.SliderCard__image {
+  border-radius: 16px;
+}
+
+.SliderCard__summary {
+  font-size: 16px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  color: var(--details_color);
+  padding-top: 32px;
+  max-width: 472px;
+}
+
+/* silder button  */
+
+.sliderLeft_icon {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  top: 29%;
+  left: -40px;
+  z-index: 21;
+  background: var(--white_color);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.sliderLeft_icon i {
+  font-size: 15px;
+  color: var(--primary_color);
+}
+
+.sliderRight_icon {
+  background: var(--white_color);
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  top: 29%;
+  right: -40px;
+  z-index: 12;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.sliderRight_icon i {
+  font-size: 15px;
+  color: var(--primary_color);
+}
+
+/* silder button  */
+
+.Portfolio__button {
+  position: absolute;
+  bottom: -22%;
+  left: 50%;
+  transform: translate(-50%, 49%);
+  font-size: 24px;
+  font-family: var(--curcularStd);
+  font-weight: bold;
+  padding: 22px 66px;
+  background: var(--details_color);
+  border-radius: 1000px;
+  color: var(--white_color);
+  box-shadow: 0px 25px 113px -16px rgba(96, 225, 203, 1);
+  -webkit-box-shadow: 0px 25px 113px -16px rgba(96, 225, 203, 1);
+  -moz-box-shadow: 0px 25px 113px -16px rgba(96, 225, 203, 1);
 }
 
 /* ========== Portfolio_part end ========== */
