@@ -517,7 +517,7 @@ img {
 
 .IdeaPart__right {
   position: absolute;
-  bottom: -27%;
+  bottom: -28%;
   right: 0;
 
 }
@@ -531,7 +531,47 @@ img {
   animation: moving 10s linear;
 }
 
-
-
-
 /* ========== IdeaPart end ========== */
+
+/* ========== work part start ========== */
+
+#workPart {
+  padding: 162px 0;
+  background: url(../images/workPart_bg.png) no-repeat center / cover;
+
+}
+
+.workPart__title {
+  font-size: 48px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  color: var(--details_color);
+}
+
+.workPart__summary {
+  font-size: 24px;
+  font-family: var(--dmSans);
+  font-weight: 400;
+  color: var(--details_color);
+  margin: 31px 0 60px;
+}
+
+.workPart__button {
+  padding: 25.5px 71.5px;
+  font-size: 22px;
+  font-family: var(--Poppins);
+  font-weight: 600;
+  color: var(--white_color);
+  background: var(--details_color);
+  border-radius: 1000px;
+  box-shadow: 0px 35px 135px -15px rgba(96, 225, 203, 0.71);
+  -webkit-box-shadow: 0px 35px 135px -15px rgba(96, 225, 203, 0.71);
+  -moz-box-shadow: 0px 35px 135px -15px rgba(96, 225, 203, 0.71);
+}
+
+
+
+
+
+
+/* ========== work part end ========== */
