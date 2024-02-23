@@ -569,9 +569,40 @@ img {
   -moz-box-shadow: 0px 35px 135px -15px rgba(96, 225, 203, 0.71);
 }
 
-
-
-
-
-
 /* ========== work part end ========== */
+
+/* ========== clint part start ========== */
+
+#clintPart {
+  padding: 175px 0 101px;
+}
+
+.title__test {
+  font-size: 24px;
+  font-family: var(--curcularStd);
+  font-weight: 700;
+  color: var(--primary_color);
+}
+
+
+.title__ourClints {
+  font-size: 48px;
+  font-family: var(--curcularStd);
+  font-weight: 700;
+  color: var(--primary_font_color);
+  margin: 16px 0 52px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== clint part end ========== */
