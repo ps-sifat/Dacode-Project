@@ -642,6 +642,20 @@ img {
 .clintSlider__bottom .active{
     width: 106px !important;
     height: 106px !important;
+    position: relative;
+}
+
+.clintSlider__bottom .active .clintSider__details{
+    position: absolute;
+    bottom: 0;
+}
+
+/* ========== clint part end ========== */
+/* ========== Footer part Start ========== */
+
+#footer_part{
+  padding: 110px 0;
+  background: url(/images/Footer_background.png) no-repeat center / cover ;
 }
 
 
@@ -650,4 +664,5 @@ img {
 
 
 
-/* ========== clint part end ========== */
+
+/* ========== Footer part end ========== */
