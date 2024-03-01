@@ -574,7 +574,7 @@ img {
 /* ========== clint part start ========== */
 
 #clintPart {
-  padding: 175px 0 101px;
+  padding: 175px 0 298px;
 }
 
 .title__test {
@@ -623,6 +623,26 @@ img {
   margin-top: 25px;
 }
 
+.clintSlider__bottom {
+  margin-bottom: -15%;
+  align-items: center;
+}
+
+.clintSlider__bottom button{
+    width: 88px !important;
+    height: 88px !important;
+    border-radius: 50%;
+    margin-right: 31px !important;
+    background-image: url(/images/slider_clint.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clintSlider__bottom .active{
+    width: 106px !important;
+    height: 106px !important;
+}
 
 
 
