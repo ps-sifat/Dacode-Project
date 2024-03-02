@@ -689,6 +689,16 @@ img {
   color: var(--primary_font_color);
 }
 
+.footer_option{
+  border: none;
+  background: transparent;
+  font-size: 19px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  color: var(--details_color);
+}
+
+
 
 
 
