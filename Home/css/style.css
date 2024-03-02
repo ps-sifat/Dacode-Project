@@ -674,7 +674,20 @@ img {
   max-width: 390px;
 }
 
+.footerList__title{
+  font-size: 19px;
+  font-family: var(--curcularStd);
+  font-weight: 700;
+  color: var(--details_color);
+  margin-bottom: 28px;
+}
 
+.footerList__iteam{
+  font-size: 16px;
+  font-family: var(--curcularStd);
+  font-weight: 500;
+  color: var(--primary_font_color);
+}
 
 
 
