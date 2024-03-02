@@ -698,8 +698,28 @@ img {
   color: var(--details_color);
 }
 
+.footerPart__line{
+  height: 0.9px;
+  max-width: 100%;
+  color: var(--white_color);
+  opacity: 1;
+  margin-top: 48px;
 
+}
 
+.CopyPart__name{
+  font-size: 16px;
+  font-family: var(--curcularStd);
+  font-weight: 400;
+  color: var(--primary_font_color);
+}
+
+.CopyPart__right__list{
+  font-size: 19px;
+  font-family: var(--curcularStd);
+  font-weight: 600;
+  color: var(--primary_font_color);
+}
 
 
 /* ========== Footer part end ========== */
