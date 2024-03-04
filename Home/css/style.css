@@ -577,6 +577,18 @@ img {
   padding: 175px 0 298px;
 }
 
+#clintPart .container{
+  position: relative;
+}
+
+#clintPart .container::after {
+  content: url(/images/clintPart_citcle.png);
+  position: absolute;
+  top: -13%;
+  left: -20%;
+  animation: moving 10s linear;
+}
+
 .title__test {
   font-size: 24px;
   font-family: var(--curcularStd);
